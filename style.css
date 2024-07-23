@@ -1,0 +1,126 @@
+*{
+padding: 0;
+margin: 0;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+nav ul{
+    height: 5vh;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: rgb(213, 223, 180); */
+    margin-left: 12%;
+    margin-right: 12%;
+  
+}
+.data{
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align:justify;
+    
+}
+
+.endpart{
+    height: 500px;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;  
+    display: flex;
+    flex-wrap: nowrap;
+    /* background-color: rebeccapurple; */
+    justify-content: center;
+ 
+}
+ div ul{
+    display:inline-flex;
+    flex-direction: column;
+    list-style: none;
+    width: 20%;
+   /* background-color: aqua; */
+}
+div ul li{
+    margin: 3%;
+    /* background-color: rgb(169, 233, 233); */
+    /* width: 22%; */
+}
+
+.image-column img {
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img01-text{
+    color: white;
+    position: absolute;
+    top: 60px;
+    right: 550px;
+    font-size: x-large;
+    text-align: center;
+    line-height: 10px;
+}
+.img02-text{
+    position: absolute; 
+    top: 80%;
+    left: 40%; 
+   color: rgb(0, 0, 0);
+   font-size: x-large;
+   line-height: 7px;
+   text-align: center;
+}
+.button-1{
+    position:absolute; 
+    top: 25%;
+    left: 42%; 
+    padding: 3px;
+
+}
+.button-2{
+    position: absolute; 
+    top: 92%;
+    left: 45%; 
+}
+
+.image-column .button .button-2{
+    position: absolute;
+    right: 40%;
+    background-color: rgb(255, 145, 0);
+}
+.image-container{
+    display: flex;
+    flex-direction:column;
+}
+.image-wrapper {
+    position: relative;
+    width: 50%;
+    
+}
+.image-wrapper img {
+    width: 100%;
+    height: 75vh;
+
+}
+
+.text-overlay {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+    
+.image-row {
+    display: flex;
+    justify-content:space-evenly;
+    height: 65vh;}
